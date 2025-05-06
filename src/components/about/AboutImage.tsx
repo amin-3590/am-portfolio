@@ -13,7 +13,7 @@ const AboutImage = () => {
       >
         <div className="mt-12 md:mt-6 h-[500px] w-[300px] rounded-[100px] overflow-hidden">
           <img
-            src="public/images/about-me.jpg"
+            src="/images/about-me.jpg"
             className="w-full h-full object-cover"
             alt="about me"
           />
