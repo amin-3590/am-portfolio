@@ -6,13 +6,19 @@ const ContactSocial = () => {
   return (
     <div className="mt-12 flex items-center justify-center gap-4">
       <div className="border border-orange-400 rounded-full p-3 text-2xl text-orange-400 cursor-pointer">
-        <FaLinkedinIn />
+        <a href="https://www.linkedin.com/in/aminaliakbari/">
+          <FaLinkedinIn />
+        </a>
       </div>
       <div className="border border-orange-400 rounded-full p-3 text-2xl text-orange-400 cursor-pointer">
-        <FiGithub />
+        <a href="https://github.com/amin-3590">
+          <FiGithub />
+        </a>
       </div>
       <div className="border border-orange-400 rounded-full p-3 text-2xl text-orange-400 cursor-pointer">
-        <FaInstagram />
+        <a href="https://instagram.com/amin.fe47">
+          <FaInstagram />
+        </a>
       </div>
     </div>
   );

@@ -11,11 +11,11 @@ const ContactInfo = () => {
       </div>
       <div className="flex items-center gap-3 text-lg text-gray-300">
         <FiPhone className="text-3xl" />
-        <p>+98 09134230680</p>
+        <p>+98 0913 423 0680</p>
       </div>
       <div className="flex items-center gap-3 text-lg text-gray-300">
         <IoLocationOutline className="text-3xl" />
-        <h1>Iran, Esfahan, Kashan</h1>
+        <h1>Iran, Kashan</h1>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ import SkillsMain from "./components/skills/SkillsMain";
 
 function App() {
   return (
-    <main className="overflow-hidden relative">
+    <div className="overflow-hidden relative">
       <HeaderMain />
       <div className="relative">
         <HeroMain />
@@ -22,7 +22,7 @@ function App() {
       <ProjectsMain />
       <ContactMain />
       <FooterMain />
-    </main>
+    </div>
   );
 }
 

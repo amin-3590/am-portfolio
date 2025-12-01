@@ -12,25 +12,28 @@ const AboutText = () => {
       className="px-6 md:pl-4 md:text-left"
     >
       <h1 className="text-5xl font-medium text-cyan-300 mb-10">About Me</h1>
-      <p className="text-gray-300 max-w-[1280px] mb-10">
-        I’m Amin, a web developer instructor with a passion for teaching and
-        coding. I specialize in React and front-end development, helping
-        students build real-world projects and master modern web technologies.
-        also run a YouTube channel, CodeNest, where I create tutorials and
-        courses to guide aspiring developers in their journey toward successful
-        careers in tech. Outside of coding, I enjoy continuous learning and
-        sharing knowledge to inspire others to achieve their goals.
+      <p className="mt-10 w-full md:w-[25rem] lg:w-[43rem] lg:text-justify text-balance text-gray-300/90">
+        I am Amin AliAkbari, a passionate web developer with a passion for coding and learning.
+        I specialize in React and modern front-end development, with a focus on building high-quality,
+        real-world projects and mastering cutting-edge web technologies. My goal is to grow professionally,
+        strengthen my portfolio, and advance my career to the next level by creating impactful,
+        market-ready applications that solve real-world problems. I am committed to excellence,
+        consistently delivering my best work, and have successfully developed innovative, functional,
+        and production-ready solutions that meet industry needs. With a mindset of continuous learning and improvement,
+        I thrive on challenges and aim to apply creativity and precision to every project I work on.
       </p>
-      <Link
-        to="projects"
-        spy={true}
-        smooth={true}
-        duration={500}
-        offset={-120}
-        className="text-lg bg-transparent text-gray-300 border border-orange-400 py-3 px-4 rounded-full cursor-pointer hover:bg-orange-400 hover:text-cyan-400 transition-all duration-500"
-      >
-        My Projects
-      </Link>
+      <div className="mt-11">
+        <Link
+          to="projects"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-120}
+          className="text-lg bg-transparent text-gray-300 border border-orange-400 py-3 px-4 rounded-full cursor-pointer hover:bg-orange-400 hover:text-cyan-400 transition-all duration-500"
+        >
+          My Projects
+        </Link>
+      </div>
     </motion.div>
   );
 };

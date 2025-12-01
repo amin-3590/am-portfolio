@@ -13,7 +13,7 @@ const ProjectsText = () => {
       <h1 className="text-5xl font-medium text-cyan-300 mb-10 text-center">
         Projects
       </h1>
-      <p className="text-gray-300 text-center">
+      <p className="mt-8 text-lg text-center text-gray-300/90">
         I have worked on a variety of web development projects, ranging from
         responsive websites for small businesses to full-stack applications and
         complex front-end interfaces.

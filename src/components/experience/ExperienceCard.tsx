@@ -10,33 +10,33 @@ const experiences: {
 }[] = [
   {
     job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    company: "Code Tutor",
+    date: "2024 - Present",
     responsibilities: [
       "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
+      "Designed a clean and engaging UI with a strong focus on readability and visual hierarchy.",
+      "Fully responsive layout ensuring a seamless experience across desktop, tablet, and mobile devices.",
       "Generating new ideas for better user experience.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "Front-End Developer",
+    company: "ShopCart-am",
+    date: "2025 - Present",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Optimized loading speed and API performance for a better user experience.",
+      "Designed and developed a fully responsive, modern UI with smooth animations using Framer Motion.",
+      "Utilized TypeScript for type safety and improved code maintainability across the application.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "Front-End Developer",
+    company: "Weather App",
+    date: "2025 - Present",
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Implemented real-time API integration for accurate weather updates globally.",
+      "Focused on performance optimization and smooth user experience.",
+      "Created interactive and visually appealing charts to display temperature, humidity, and other key metrics.",
     ],
   },
 ];
@@ -52,7 +52,7 @@ const ExperienceCard = () => {
             whileInView="show"
             viewport={{ once: false, amount: 0 }}
             key={index}
-            className="md:h-[350px] md:w-[240px] border-2 border-dashed border-orange-400 p-2 md:p-1 text-left rounded-xl mx-4"
+            className="md:h-[415px] md:w-[228px] border-2 border-dashed border-orange-400 p-2 md:p-1 text-left rounded-xl mx-4"
           >
             <div className="p-2">
               <h1 className="text-cyan-400 ">{item.job}</h1>

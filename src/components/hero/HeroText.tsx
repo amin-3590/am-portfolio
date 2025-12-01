@@ -27,10 +27,10 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="mt-7 text-gray-300"
+        className="mt-5 text-lg text-gray-300/90"
       >
-        A Passionate Web Developer and Instructor <br />
-        with 3 years of experience.
+        Enthusiastic and creative web developer <br />
+        with 2 years of programming experience
       </motion.p>
     </div>
   );
